@@ -1,9 +1,9 @@
 const jokes = [
-  "Why don’t skeletons fight each other? They don’t have the guts!",
-  "I told my computer I needed a break, and it said ‘No problem – I’ll go to sleep.’",
-  "Why did the scarecrow win an award? Because he was outstanding in his field!",
-  "I tried to catch fog yesterday. Mist!",
-  "Why did the bicycle fall over? It was two-tired!"
+  "استاد: پڑھائی کیوں نہیں کرتے؟ شاگرد: کیونکہ بجلی والا بل ٹرین کی طرح دوڑتا ہے!",
+  "بیوی: سنو! خواب میں میں نے سونا دیکھا، شوہر: بجلی کا بل تو نہیں دیکھا؟",
+  "ڈاکٹر: نیند آتی ہے؟ مریض: جی ہاں، کلاس میں سب سے زیادہ!",
+  "بیوی: سنو! میرے بال کم کیوں ہو گئے ہیں؟ شوہر: کیونکہ دماغ زیادہ ہے۔",
+  "استاد: تم اسکول دیر سے کیوں آئے؟ شاگرد: راستے میں وقت ضائع ہو گیا!"
 ];
 
 const jokeBtn = document.getElementById('jokeBtn');
@@ -20,7 +20,7 @@ jokeBtn.addEventListener('click', () => {
 });
 
 danceBtn.addEventListener('click', () => {
-  // Add dance animation to the container (not body to avoid scroll issues)
+  
   const container = document.querySelector('.container');
   container.classList.add('dance');
   setTimeout(() => container.classList.remove('dance'), 2000);
